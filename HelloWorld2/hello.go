@@ -11,6 +11,11 @@ func main(){
 	fmt.Println(z);
 	fmt.Println(x);
 	fmt.Println(y);
-    
+	
+	
+	d:=&x;
+
+	fmt.Println(d);
+	fmt.Println(*d);
 	fmt.Println("volki tolki");
 }

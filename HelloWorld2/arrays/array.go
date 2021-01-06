@@ -11,7 +11,8 @@ func main(){
 	
 	fmt.Println(len(a))
 
-	b:=[5]int{1,2,3,4,5}
+	b:=[]int{1,2,3,4,5}
+	b[3]=7;
 
 	fmt.Println("dcl:",b)
 

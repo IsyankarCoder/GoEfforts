@@ -9,7 +9,7 @@ func zeroVal(val int){
 }
 
 func zeroptr(intptr *int){
-  *intptr=0
+  *intptr=8
 }
 
 func main(){

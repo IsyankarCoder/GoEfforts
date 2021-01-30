@@ -26,7 +26,7 @@ func main() {
 	l:=s[2:3]
 	fmt.Println("ll	:",l)
 
-	l=s[:5]
+	l=s[:0]
 	fmt.Println("l5",l)
 
 	l=s[3:]

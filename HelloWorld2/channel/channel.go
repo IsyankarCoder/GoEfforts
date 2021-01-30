@@ -8,9 +8,11 @@ func main(){
 	go func(){
 		messages <-"ping volkiş"
 		messages <-"ddsd"
-	}()
-
- 
+	}() 
+	
 	fmt.Println(<-messages)	 
 	fmt.Println(<-messages)
+	
+
+ 
 }

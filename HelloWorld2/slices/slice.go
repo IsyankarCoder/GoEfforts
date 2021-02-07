@@ -22,6 +22,7 @@ func main() {
 	c:= make([]string,len(s))
 	copy(c,s)
 	fmt.Println("cpoy",c)
+	fmt.Println("copy len", len(c))
 
 	l:=s[2:3]
 	fmt.Println("ll	:",l)
